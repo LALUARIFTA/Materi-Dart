@@ -1,0 +1,71 @@
+import 'dart:io';
+void main(List<String> args) {
+
+  print('''
+
+Alfamart unit 8
+PT.SUMBER ALFARIA TRIJAYA,TBK
+ALFA TOWER LT.12, ALAM SUTERA, TANGGERANG
+NPWP : 01.336.238.9-054.00
+JL. RAYA RAWAP RT. 001 RW. BANJAR AGU
+===========================================
+BON : JHDSADGFYAHBD   KASIR : JUSTIN BEIBER
+===========================================
+
+''');
+
+  List<String> list_barang = ['Shampo'];
+
+  Map list_map = {
+    'barang1': 'Shampo',
+    'barang2': 'Teh Poci',
+  };
+
+  print(list_map['barang1']);
+
+  for (int i = 0; i < 2; i++){
+    stdout.write('Masukkan barang ${i + 1} : ');
+    list_barang.add(stdin.readLineSync().toString());
+  }
+
+  for (int j = 0; j < list_barang.length; j++){
+    print(list_barang[j]);
+  }
+//   String barang1 = 'Shampo';
+//   String barang2 = 'Odol';
+
+//   int harga_barang1 = 5000;
+//   int harga_barang2 = 4500;
+
+//   int total_barang = harga_barang1 + harga_barang2;
+
+// //   print('''
+// //           Berqhotel
+// //       Grosse Scheidegg
+
+// // Barang 1 : $barang1     = $harga_barang1
+// // Barang 2 : $barang2       = $harga_barang2
+
+// //               Total   = $total_barang
+// // ''');
+//   // print('1');
+//   // print('2');
+
+//   // print('-------');
+  
+//   // stdout.write('1');
+//   // stdout.write('2');
+
+//   String harga = '5000';
+//   String harga2 = '10000';
+
+//   int harga_convert = int.parse(harga);
+//   int harga_convert2 = int.parse(harga2);
+
+//   // print(harga_convert + harga_convert2);
+
+//   stdout.write('tunai : ');
+//   int tunai = int.parse(stdin.readLineSync().toString());
+
+//   print('Hasil ketikan $tunai');
+}
