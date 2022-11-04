@@ -1,0 +1,49 @@
+# UTS
+# alpro a-b UKM PC
+import 'dart:io';
+
+void main() {
+  stdout.write("tunai : ");
+  double tunai = double.parse(stdin.readLineSync()!);
+  stdout.write("jumlah item: ");
+  double item = double.parse(stdin.readLineSync()!);
+  stdout.write("harga sampho: ");
+  double shampo = double.parse(stdin.readLineSync()!);
+  dynamic ppn = 10;
+
+  print('''
+
+Alfamart unit 8
+PT.SUMBER ALFARIA TRIJAYA,TBK
+ALFA TOWER LT.12, ALAM SUTERA, TANGGERANG
+NPWP : 01.336.238.9-054.00
+JL. RAYA RAWAP RT. 001 RW. BANJAR AGU
+===========================================
+BON : JHDSADGFYAHBD   KASIR : JUSTIN BEIBER
+===========================================
+
+''');
+
+  String hasil = 'shampo     $item     $shampo';
+  print(hasil);
+
+  String ab = 'tunai              $tunai';
+  print(ab);
+
+  double z = tunai - shampo;
+
+  String c = 'kembalian          $z';
+  print(c);
+
+  double op = shampo / ppn;
+  String d = ('ppn                $op');
+  print(d);
+
+
+
+  print('''===========================================
+tgl. 22-01-2022 16:23:21 V.2022.20.6
++------------------------------------------
+kritik&Saran:1231253, SMS:083674627
+''');
+}
