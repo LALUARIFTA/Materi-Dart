@@ -1,0 +1,41 @@
+# operator logika
+void main() {
+  // DEKLARASIKAN NILAI
+  var truee = true;
+  var falsee = false;
+
+  //OPERATOR AND
+  print('===========================');
+  print('OPERATOR &&');
+  print('===========================');
+  print('TRUE && FALSE :');
+  print(truee && falsee);
+  print('FALSE && TRUE :');
+  print(falsee && truee);
+  print('TRUE && TRUE :');
+  print(truee && truee);
+  print('FALSE && FALSE :');
+  print(falsee && falsee);
+  print('===========================');
+  //OPERATOR OR
+  print('===========================');
+  print('OPERATOR ||');
+  print('===========================');
+  print('TRUE || FALSE :');
+  print(truee || falsee);
+  print('FALSE || TRUE :');
+  print(falsee || truee);
+  print('TRUE || TRUE :');
+  print(truee || truee);
+  print('FALSE || FALSE :');
+  print(falsee || falsee);
+  print('===========================');
+  //OPERATOR KEBALIKAN
+  print('===========================');
+  print('OPERATOR !');
+  print('===========================');
+  print('!TRUE :');
+  print(!truee);
+  print('!FALSE :');
+  print(!falsee);
+}
