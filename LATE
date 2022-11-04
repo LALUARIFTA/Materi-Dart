@@ -1,0 +1,12 @@
+# late
+void main() {
+  
+  late var value = GetValue();
+  print(value);
+  
+}
+
+String GetValue() {
+  print('getValue dipanggil');
+  return 'hello world';
+}
