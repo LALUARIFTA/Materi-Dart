@@ -1,0 +1,14 @@
+# list dart
+void main() {
+  var name = <String>[];
+
+  name.add("joko");
+  name.add("wiwi");
+  name.add("dodo");
+  name.add("slebew");
+
+  // name.removeAt(3);
+  // name[2]="blok";
+  print(name);
+  print(name.length);
+}
